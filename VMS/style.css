@@ -1,0 +1,247 @@
+:root {
+    --font: 'Poppins', sans-serif;
+    --col1: #F4F4F4;
+    --col2: #4B4688;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+
+    font-family: 'Arial', sans-serif;
+    background-color: var(--col1);
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 230px;
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.button {
+    /* margin-top: 50px; */
+    background-color: var(--col2);
+    color: rgb(255, 255, 255);
+}
+.button i {
+    background: none;
+    color: rgb(255, 255, 255);
+}
+/* Login Form */
+
+.logo {
+    margin-top: 12px;
+}
+.form{
+    margin: 50px auto 50px auto;
+    border-radius: 10px;
+    width: 36% !important;
+    background-color: white !important;
+    padding: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.login-btn{
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--col2);
+    color: white;   
+}
+
+.form-control{
+    color: rgba(0,0,0,.87);
+    border-bottom-color: rgba(0,0,0,.42);
+    box-shadow: none !important;
+    border: none;
+    border-bottom: 1px solid;
+    border-radius: 4px 4px 0 0;
+    }
+ h4{
+    font-family: var(--font);
+    font-size: 2rem !important;
+    font-weight: 600;
+ }  
+ .form-label{
+    font-weight: 800 !important;
+ }
+@media only screen and (max-width: 600px) {
+    form {
+        width: 100% !important;
+    }
+  }
+
+.container {
+    margin: 90px 10px 10px 10px;
+}
+.input-group-append {
+    cursor: pointer;
+  }
+
+  .search{
+    position: relative;
+    box-shadow: 0 0 40px rgba(51, 51, 51, .1);
+      text-align: center;
+    }
+
+    .search input{
+
+    width: auto;
+    height: 40px;
+    text-indent: 25px;
+    border: 2px solid #d6d4d4;
+
+    }
+
+
+    .search input:focus{
+
+     box-shadow: none;
+     border: 2px solid blue;
+
+
+    }
+
+    .search .fa-search{
+
+     position: absolute;
+     top: 12px;
+     left: 16px;
+     align-items: center;
+
+    }
+
+    .search button{
+
+        
+    padding: 3px 10px 10px 10px;
+        position: absolute;
+        top: 4.4px;
+        margin-left: 45px;
+        height: 30px;
+        width: auto;
+        background: blue;
+
+    }
+    .close{
+        margin: -30px;
+        float: right;
+    }
+    .text-center {
+        margin: 30px;
+    }
+
+    .logout-popup{
+        margin: 50px auto 50px auto;
+        border-radius: 10px;
+        width: 36% !important;
+        background-color: white !important;
+        padding: 50px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .logout {
+        margin: 20px 70px 20px 70px;
+    }
+
+    .logout button{
+        background-color: var(--col2);
+        color: var(--col1);
+    }
+    .Ok-btn {
+        padding: 10px 30px 10px 30px;
+    }
+    .cancel-btn {
+        padding: 10px 30px 10px 30px;
+    }
+
+    /* Dashboard Card */
+.order-card {
+    color: #fff;
+}
+
+.bg-c-blue {
+    background: #F8F8F8;
+    color: #4B4688;
+}
+
+.card {
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 2.94px 0.06px rgba(4,26,55,0.16);
+    box-shadow: 0 1px 2.94px 0.06px rgba(4,26,55,0.16);
+    border: none;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.card .card-block {
+    padding: 25px;
+}
+
+.order-card i {
+    font-size: 26px;
+}
+
+
+
+.f-left {
+    float: left;
+}
+
+.f-right {
+    float: right;
+}
+
+.chart-container {
+    width: 100%; 
+    height: 160px; 
+    margin: auto;
+  }
+
+  /* Visitor-FORM */
+  .field label {
+    font-size: 12px;
+  }
+  .field input {
+    font-size: 11px;
+  }
+  .form {
+    margin: 50px auto 50px auto;
+    border-radius: 10px;
+    background-color: white !important;
+    padding: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .add_icon {
+    padding: 10px;
+    border: 1px dashed 
+  #aaa;
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  .remove-btn {
+    justify-content: center;
+  }
+
+  .visitor-table th{
+    text-align:center;
+    font-size: 12px;
+  }
+  .visitor-detail td {
+    text-align: center;
+    font-size: 12px;
+  }
+
+ 

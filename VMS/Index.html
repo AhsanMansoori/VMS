@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+
+    
+    <title>Dashboard</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <nav id="sidebar" class="col-md-2 d-md-block bg-light sidebar">
+                <div class="position-sticky">
+                    <div class="p-3">
+                        <div class="d-flex text-decoration-none mt-1 align-items-center nav-brand">
+                            <img src="./Assets/logo.png" class="img-thumbnail" alt="Official logo">
+                        </div>
+                        <ul class="nav flex-column">
+                            <li class="nav-item">
+                                <a href="#" class="nav-link text-secondary-emphasis">
+                                    <i class="fa-solid fa-pen-to-square"></i>
+                                    <span class="fs-6 ms-2 d-none d-sm-inline ">Invitation</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link text-secondary-emphasis">
+                                    <i class="fa-solid fa-clock-rotate-left"></i>
+                                    <span class="fs-6 ms-2 d-none d-sm-inline">Visitor Logbook</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="mt-auto">
+                            <ul class="nav flex-column ">
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link text-secondary-emphasis ">
+                                        <i class="fa fa-lock"></i>
+                                        <span class="fs-6 ms-2 d-none d-sm-inline logout">Logout</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+                <div class="d-grid gap-2 col-2 mx-auto mt-5">
+                    
+                        <a href="Create-Invite.html"><i class="fa fa-plus">
+
+                        </i> Create Invite</a>
+                </div>
+
+                
+                
+
+                <div class="container text-center mx-auto">
+                    <div class="row justify-content-start">
+                        <div class="col-4">
+                            <div class="row height d-flex justify-content-center align-items-center">
+
+                                <div class="col-md-8">
+          
+                                  <div class="search">
+                                    <i class="fa fa-search"></i>
+                                    <input type="text" class="form-control" placeholder="Search">
+                                    <button class="btn btn-primary">Search</button>
+                                  </div>
+                                  
+                                </div>
+                                
+                            </div>
+                        </div>
+
+                        <div class="col-4">
+                            <div class="dropdown">
+                                <button class="btn  dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropdown button
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-4">
+                            <div class="input-group date" id="datepicker">
+                                <input placeholder="mm/dd/yyyy" type="text" class="form-control" id="date"/>
+                                <span class="input-group-append">
+                                  <span class="input-group-text bg-light d-block">
+                                    <i class="fa fa-calendar"></i>
+                                  </span>
+                                </span>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Table -->
+                <table class="table align-middle">
+                    <thead>
+                      <tr>
+                        <!-- <th scope="col">#</th> -->
+                        <th scope="col">Name</th>
+                        <th scope="col">No. of Visitor</th>
+                        <th scope="col">Nature of Visit</th>
+                        <th scope="col">Company Name</th>
+                        <th scope="col">Date</th>
+                        <th scope="col">Time</th>
+                        <th scope="col">Select option</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                        <!-- 1 -->
+                        <tr>
+                            <th scope="row">Ahsan Mansoori</th>
+                            <td>2</td>
+                            <td>Internship</td>
+                            <td>Maju</td>
+                            <td>12/19/2023</td>
+                            <td>12:00 pm</td>
+                            <td>
+                                <button type="button" class="btn  btn-sm px-1" data-mdb-ripple-init data-ripple-color="primary">
+                                    <i class="fa-solid fa-eye"></i>
+                                </button>
+                                <button type="button" class="btn  btn-sm px-1" data-mdb-ripple-init data-ripple-color="primary">
+                                    <i class="fa-solid fa-pen"></i>
+                                </button>
+                                <button type="button" class="btn  btn-sm px-1" data-mdb-ripple-init data-ripple-color="primary">
+                                    <i class="fa-solid fa-trash-can"></i>
+                                </button>
+                            </td>
+                        </tr>
+                        <!-- 2 -->
+                        <tr>
+                            <th scope="row">Ahsan Mansoori</th>
+                            <td>2</td>
+                            <td>Internship</td>
+                            <td>Maju</td>
+                            <td>12/19/2023</td>
+                            <td>12:00 pm</td>
+                            <td>
+                                <button type="button" class="btn  btn-sm px-1" data-mdb-ripple-init data-ripple-color="primary">
+                                    <i class="fa-solid fa-eye"></i>
+                                </button>
+                                <button type="button" class="btn  btn-sm px-1" data-mdb-ripple-init data-ripple-color="primary">
+                                    <i class="fa-solid fa-pen"></i>
+                                </button>
+                                <button type="button" class="btn  btn-sm px-1" data-mdb-ripple-init data-ripple-color="primary">
+                                    <i class="fa-solid fa-trash-can"></i>
+                                </button>
+                            </td>
+                        </tr>
+                        <!-- 3 -->
+                        <tr>
+                            <th scope="row">Ahsan Mansoori</th>
+                            <td>2</td>
+                            <td>Internship</td>
+                            <td>Maju</td>
+                            <td>12/19/2023</td>
+                            <td>12:00 pm</td>
+                            <td>
+                                <button type="button" class="btn  btn-sm px-1" data-mdb-ripple-init data-ripple-color="primary">
+                                    <i class="fa-solid fa-eye"></i>
+                                </button>
+                                <button type="button" class="btn  btn-sm px-1" data-mdb-ripple-init data-ripple-color="primary">
+                                    <i class="fa-solid fa-pen"></i>
+                                </button>
+                                <button type="button" class="btn  btn-sm px-1" data-mdb-ripple-init data-ripple-color="primary">
+                                    <i class="fa-solid fa-trash-can"></i>
+                                </button>
+                            </td>
+                        </tr>
+                        <!-- 4 -->
+                        <tr>
+                            <th scope="row">Ahsan Mansoori</th>
+                            <td>2</td>
+                            <td>Internship</td>
+                            <td>Maju</td>
+                            <td>12/19/2023</td>
+                            <td>12:00 pm</td>
+                            <td>
+                                <button type="button" class="btn  btn-sm px-1" data-mdb-ripple-init data-ripple-color="primary">
+                                    <i class="fa-solid fa-eye"></i>
+                                </button>
+                                <button type="button" class="btn  btn-sm px-1" data-mdb-ripple-init data-ripple-color="primary">
+                                    <i class="fa-solid fa-pen"></i>
+                                </button>
+                                <button type="button" class="btn  btn-sm px-1" data-mdb-ripple-init data-ripple-color="primary">
+                                    <i class="fa-solid fa-trash-can"></i>
+                                </button>
+                            </td>
+                        </tr>
+                        <!-- 5 -->
+                        <tr>
+                            <th scope="row">Ahsan Mansoori</th>
+                            <td>2</td>
+                            <td>Internship</td>
+                            <td>Maju</td>
+                            <td>12/19/2023</td>
+                            <td>12:00 pm</td>
+                            <td>
+                                <button type="button" class="btn  btn-sm px-1" data-mdb-ripple-init data-ripple-color="primary">
+                                    <i class="fa-solid fa-eye"></i>
+                                </button>
+                                <button type="button" class="btn  btn-sm px-1" data-mdb-ripple-init data-ripple-color="primary">
+                                    <i class="fa-solid fa-pen"></i>
+                                </button>
+                                <button type="button" class="btn  btn-sm px-1" data-mdb-ripple-init data-ripple-color="primary">
+                                    <i class="fa-solid fa-trash-can"></i>
+                                </button>
+                            </td>
+                        </tr>
+                        <!-- 6 -->
+                        <tr>
+                            <th scope="row">Ahsan Mansoori</th>
+                            <td>2</td>
+                            <td>Internship</td>
+                            <td>Maju</td>
+                            <td>12/19/2023</td>
+                            <td>12:00 pm</td>
+                            <td>
+                                <button type="button" class="btn  btn-sm px-1" data-mdb-ripple-init data-ripple-color="primary">
+                                    <i class="fa-solid fa-eye"></i>
+                                </button>
+                                <button type="button" class="btn  btn-sm px-1" data-mdb-ripple-init data-ripple-color="primary">
+                                    <i class="fa-solid fa-pen"></i>
+                                </button>
+                                <button type="button" class="btn  btn-sm px-1" data-mdb-ripple-init data-ripple-color="primary">
+                                    <i class="fa-solid fa-trash-can"></i>
+                                </button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </main>
+        </div>
+    </div>
+
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <script>
+        function openForm() {
+            document.getElementById("overlay").style.display = "block";
+            document.getElementById("formContainer").style.display = "block";
+
+            fetch('create-invite.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById("formContainer").innerHTML = data;
+                });
+        }
+
+        function closeForm() {
+            document.getElementById("overlay").style.display = "none";
+            document.getElementById("formContainer").style.display = "none";
+        }
+    </script> -->
+
+    
+    
+</body>
+</html>

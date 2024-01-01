@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+
+    
+    <title>Dashboard</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <nav id="sidebar" class="col-md-2 d-md-block bg-light sidebar">
+                <div class="position-sticky">
+                    <div class="p-3">
+                        <div class="d-flex text-decoration-none mt-1 align-items-center nav-brand">
+                            <img src="./Assets/logo.png" class="img-thumbnail" alt="Official logo">
+                        </div>
+                        <ul class="nav flex-column">
+                            <li class="nav-item">
+                                <a href="#" class="nav-link text-secondary-emphasis">
+                                    <i class="fa-regular fa-clipboard"></i>
+                                    <span class="fs-6 ms-2 d-none d-sm-inline ">Dashboard</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link text-secondary-emphasis">
+                                    <i class="fa-solid fa-bars"></i>
+                                    <span class="fs-6 ms-2 d-none d-sm-inline">View Visitor</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link text-secondary-emphasis">
+                                    <i class="fa-solid fa-clock-rotate-left"></i>
+                                    <span class="fs-6 ms-2 d-none d-sm-inline">History</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="mt-auto">
+                            <ul class="nav flex-column ">
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link text-secondary-emphasis ">
+                                        <i class="fa fa-lock"></i>
+                                        <span class="fs-6 ms-2 d-none d-sm-inline logout">Logout</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+            
+                <div class="container">
+                            <div class="row">
+                                <div class="col-md-4 col-xl-3">
+                                    <div class="card bg-c-blue order-card">
+                                        <div class="card-block">
+                                            <div class="col-1">
+                                                <i class="fa-solid fa-users"></i>
+                                            </div>
+                                            <div class="col-6 float-end">
+                                                <p class="m-b-0">
+                                                    <span class="f-right ">16</span>
+                                                </p>
+                                            </div>
+                                            <div class="col-6 d-inline-flex mt-5">
+                                                <i class="fa-solid fa-users"></i>
+                                                <p class="">Total Visitors</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-xl-3">
+                                    <div class="card bg-c-blue order-card">
+
+                                        <div class="card-block">
+
+                                            <div class="col-1">
+                                                <i class="fa-solid fa-users"></i>
+                                            </div>
+
+                                            <div class="col-6 float-end number">
+                                                <p class="m-b-0">
+                                                    <span class="f-right text">16</span>
+                                                </p>
+                                            </div>
+
+                                            <div class=" col-6 d-inline-flex mt-5">
+                                                <i class="fa-solid fa-users"></i>
+                                                <p class="text">Total Visitors</p>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-xl-3">
+                                    <div class="card bg-c-blue order-card">
+                                        <div class="card-block">
+                                            <div class="col-1">
+                                                <i class="fa-solid fa-users"></i>
+                                            </div>
+                                            <div class="col-6 float-end">
+                                                <p class="m-b-0">
+                                                    <span class="f-right ">16</span>
+                                                </p>
+                                            </div>
+                                            <div class="col-6 d-inline-flex mt-5">
+                                                <i class="fa-solid fa-users"></i>
+                                                <p class="">Total Visitors</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-xl-3">
+                                    <div class="card bg-c-blue order-card">
+                                        <div class="card-block">
+                                            <div class="col-1">
+                                                <i class="fa-solid fa-users"></i>
+                                            </div>
+                                            <div class="col-6 float-end">
+                                                <p class="m-b-0">
+                                                    <span class="f-right ">16</span>
+                                                </p>
+                                            </div>
+                                            <div class="col-6 d-inline-flex mt-5">
+                                                <i class="fa-solid fa-users"></i>
+                                                <p class="">Total Visitors</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+
+                            </div>
+                </div>
+                <div class="d-inline-flex gap-5">
+                    <div class="col-md-10">
+                        <table class="table align-start ">
+                            <thead>
+                              <tr class="visitor-table">
+                                <!-- <th scope="col">#</th> -->
+                                <th scope="col">S.no</th>
+                                <th scope="col">Name</th>
+                                <th scope="col">No. of Visitor</th>
+                                <th scope="col">Nature of Visit</th>
+                                <th scope="col">Company Name</th>
+                                <th scope="col">Date</th>
+                                <th scope="col">Time</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                                <!-- 1 -->
+                                <tr>
+                                    <td>1</td>
+                                    <td scope="row">Ahsan Mansoori</td>
+                                    <td>2</td>
+                                    <td>Internship</td>
+                                    <td>Maju</td>
+                                    <td>12/19/2023</td>
+                                    <td>12:00 pm</td>
+                                    
+                                </tr>
+                                <!-- 2 -->
+                                <tr>
+                                    <td>2</td>
+                                    <td scope="row">Ahsan Mansoori</td>
+                                    <td>2</td>
+                                    <td>Internship</td>
+                                    <td>Maju</td>
+                                    <td>12/19/2023</td>
+                                    <td>12:00 pm</td>
+                                    
+                                </tr>
+                                <!-- 3 -->
+                                <tr>
+                                    <td>3</td>
+                                    <td scope="row">Ahsan Mansoori</td>
+                                    <td>2</td>
+                                    <td>Internship</td>
+                                    <td>Maju</td>
+                                    <td>12/19/2023</td>
+                                    <td>12:00 pm</td>
+                                    
+                                </tr>
+                                <!-- 4 -->
+                                <tr>
+                                    <td>4</td>
+                                    <td scope="row">Ahsan Mansoori</td>
+                                    <td>2</td>
+                                    <td>Internship</td>
+                                    <td>Maju</td>
+                                    <td>12/19/2023</td>
+                                    <td>12:00 pm</td>
+                                    
+                                </tr>
+                                <!-- 5 -->
+                                <tr>
+                                    <td>5</td>
+                                    <td scope="row">Ahsan Mansoori</td>
+                                    <td>2</td>
+                                    <td>Internship</td>
+                                    <td>Maju</td>
+                                    <td>12/19/2023</td>
+                                    <td>12:00 pm</td>
+                                    
+                                </tr>
+                                <!-- 6 -->
+                                <tr>
+                                    <td>6</td>
+                                    <td scope="row">Ahsan Mansoori</td>
+                                    <td>2</td>
+                                    <td>Internship</td>
+                                    <td>Maju</td>
+                                    <td>12/19/2023</td>
+                                    <td>12:00 pm</td>
+                                    
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="col-md 4">
+                        <div class="card chart-container">
+                            <canvas id="chart"></canvas>
+                        </div>
+                    </div>
+
+                </div>
+                    
+            </main>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.js"></script>
+    <script>
+             const ctx = document.getElementById("chart").getContext('2d');
+      const myChart = new Chart(ctx, {
+        type: 'bar',
+        data: {
+          labels: ["rice", "yam", "tomato", "potato",
+          "beans", "maize", "oil"],
+          datasets: [{
+            label: 'food Items',
+            backgroundColor: 'rgba(161, 198, 247, 1)',
+            borderColor: 'rgb(47, 128, 237)',
+            data: [300, 400, 200, 500, 800, 900, 200],
+          }]
+        },
+        options: {
+          scales: {
+            yAxes: [{
+              ticks: {
+                beginAtZero: true,
+              }
+            }]
+          }
+        },
+      });
+    </script>
+    
+    
+</body>
+</html>
